@@ -1,0 +1,1 @@
+<div class="alert alert-danger">Vui lòng điền đầy đủ</div>

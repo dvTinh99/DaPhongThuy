@@ -16,7 +16,7 @@
                                 </ul>
                             </div>
                             <a href="">
-                                <img src="{{ asset('resources/upload/news/' .$val->image) }}" alt="" >
+                                <img src="{{'image/news/' .$val->image}}" alt="" >
                             </a>
                             <div class="content-new"><p>{!! $val->content !!}</p></div>
 

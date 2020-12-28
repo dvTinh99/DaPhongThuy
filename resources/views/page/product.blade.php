@@ -112,7 +112,7 @@
                     <div class="col-md-12" style="margin-bottom: 20px;">
                         <div class="row">
                         <div class="col-md-4">
-                            <img src="{{ asset('image/upload/news/' .$val->image) }}" alt="" width="100%" height="150px;">
+                            <img src="{{'image/upload/news/' .$val->image}}" alt="" width="100%" height="150px;">
                         </div>
                         <div class="col-md-8">
                             <a href="{{ url('bai-viet', [$val->id, $val->name]) }}"><p>{{ $val->name }}</p></a>

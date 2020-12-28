@@ -42,7 +42,7 @@
             <div class="row">
                 @foreach($new_def as $val)
                 <div class="col-md-4">
-                    <a href="{{ url('bai-viet', [$val->id, $val->name]) }}"><img src="{{ asset('resources/upload/news/' .$val->image) }}" alt="" height="200px;" width="100%"></a>
+                    <a href="{{ url('bai-viet', [$val->id, $val->name]) }}"><img src="{{ asset('image/upload/news/' .$val->image) }}" alt="" height="200px;" width="100%"></a>
                     <a href="{{ url('bai-viet', [$val->id, $val->name]) }}"><h6>{{ $val->name }}</h6></a>
                 </div>
                 @endforeach

@@ -37,13 +37,15 @@
                                         <td>{{ $customer->email }}</td>
                                         <td>
                                             <?php  $data = DB::table('customers')->join('bills','customers.id', '=', 'bills.customer_id')->where('customer_id', $customer['id'])->first();
-
+                                              
                                             ?>
+                                            
                                             @if($data->payment == 1)
-                                            {{ "Đã thanh toán" }}
+                                              {{ "Đã thanh toán" }}
                                             @else
-                                            {{ "Chưa thanh toán" }}
+                                              {{ "Chưa thanh toán" }}
                                             @endif
+                                          
 
                                         </td>
                                         <td><a href="{{ route('admin.bill.getView', $customer->id) }}">Chi tiết</a></td>

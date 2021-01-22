@@ -122,9 +122,6 @@
                                 <li>
                                     <a href="{{ URL('/admin/user/list')}}">Danh sách người dùng</a>
                                 </li>
-                                <li>
-                                    <a href="{{ URL('/admin/user/add')}}">Thêm Người dùng</a>
-                                </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>

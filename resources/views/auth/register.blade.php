@@ -47,9 +47,11 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-md-4 control-label">Role</label>
+                            <label class="col-md-4 control-label"></label>
                             <div class="col-md-6">
-                                <label class="radio-inline"><input type="radio" name="role" value="2"> Member</label>
+                                <label class="radio-inline">
+                                <input  type="hidden" name="role" value="2" checked="checked"> 
+                                </label>
                             </div>
                         </div>
 

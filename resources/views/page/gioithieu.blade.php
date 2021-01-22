@@ -13,7 +13,7 @@
             <h3>CÔNG TY CỔ PHẦN PHONG THỦY PHƯỚC LỘC</h3>
             <span>Ngũ Hành Sơn - Đà Nẵng</span>
             <p>
-            Phong thủy Mixi - Công ty chuyên cung cấp, bán sỉ và lẻ, <code>tư vấn miễn phí</code> các sản phẩm Đá quý phong thủy: Vật phẩm phong thủy, Vòng đeo tay đá, Dây chuyền mặt đá, Nhẫn đá quý và các sản phẩm khác hợp Mệnh.</p>
+            Phong thủy Phước Lộc - Công ty chuyên cung cấp, bán sỉ và lẻ, <code>tư vấn miễn phí</code> các sản phẩm Đá quý phong thủy: Vật phẩm phong thủy, Vòng đeo tay đá, Dây chuyền mặt đá, Nhẫn đá quý và các sản phẩm khác hợp Mệnh.</p>
             <p>Đá phong thủy là một trong những vật phẩm có công dụng mạnh nhất trong việc thay tài đổi vận, mang lại sức khỏe, công danh, tình duyên, tài lộc,... Tất cả các loại đá phong thủy c khi được chế tác thành đồ trang sức đều mang về những công dụng và lợi ích đặc biệt cho người đeo, chẳng hạn như giúp tăng vượng khí, việc làm ăn phát đạt, tăng tiến công danh, tài lộc, sức khỏe tốt, kích hoạt tình duyên, gia đình êm ấm, …Trong đó, mỗi loại đá sẽ mang lại những lợi ích riêng đáng kể hơn tùy theo tính chất, màu sắc của viên đá đó. </p>
             <p>Các sản phẩm từ đá rất phong phú, cả về kiểu dáng lẫn giá cả. Vì vậy mọi người có thể dễ dàng tìm được những món đồ ưng ý với giá cả phù hợp. Một món quà tặng đẹp và lạ bằng đá tự nhiên c sẽ giúp cả người tặng lẫn người nhận đều không cảm thấy ngại ngần.</p>
             <h5>1. Tại sao nên lựa chọn c.vn</h5>
@@ -38,7 +38,7 @@
             <p>- Giá cả cạnh tranh: Bạn sẽ được mua số lượng Đơn Lẻ theo giá tốt nhất trên thị trường</p>
             <p>- Thái độ phục vụ : Xem khách hàng là người thân, chũng tôi nỗ lực để khách hàng cảm thấy hài lòng nhất.</p>
             <p>Mọi ý kiến phản hồi xin vui lòng gửi về hòm thư: lienhe@c.vn</p>
-            <strong>Phong thủy MIXI xin chân thành cám ơn Quý Khách Hàng !</strong>
+            <strong>Phong thủy Phước Lộc xin chân thành cám ơn Quý Khách Hàng !</strong>
 
         </div>
         <div class="col-md-3">
@@ -48,7 +48,7 @@
             </div>
             @foreach($new as $val)
             <div class="tintuc text-center">
-                <a href="{{ url('bai-viet', [$val->id, $val->name]) }}"><img src="{{ asset('resources/upload/news/' .$val->image) }}" alt="" height="200px;" width="100%"></a>
+                <a href="{{ url('bai-viet', [$val->id, $val->name]) }}"><img src="{{ asset('image/upload/news/' .$val->image) }}" alt="" height="200px;" width="100%"></a>
                 <a href="{{ url('bai-viet', [$val->id, $val->name]) }}"><h6>{{ $val->name }}</h6></a>
             </div>
             @endforeach

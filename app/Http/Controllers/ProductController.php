@@ -30,7 +30,7 @@ class ProductController extends Controller {
 		$product->size = $request->size;
 		$product->status = $request->rdoStatus;
 		$product->image_list = $file_name;
-		$request->file('fImages')->move('resources/upload/',$file_name);
+		$request->file('fImages')->move('image/',$file_name);
 
 		$product->save();
 		return redirect()->route('admin.product.getadd')->with(['messages'=>'Add Product Complete']);

@@ -61,7 +61,7 @@
             </div>
         </div>
 
-        <div class="chatsub">
+        <!-- <div class="chatsub">
             <span style="">Chatbox</span>
         </div>
         <div class="chat">
@@ -73,7 +73,7 @@
                 <input type="text" id="nameInput" placeholder="Name" class="input1">
                 <input type="text" id="messageInput" placeholder="Message" class="input2">
             </div>
-        </div>
+        </div> -->
 
 
         <div class="footer-bottom">

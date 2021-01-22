@@ -6,7 +6,6 @@ use App\User;
 use App\Http\Requests;
 use App\Http\Requests\RegisterRequest;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
 class RegisterController extends Controller
@@ -53,7 +52,7 @@ class RegisterController extends Controller
         $register->username = $request->username;
         $register->email = $request->email;
         $register->password = bcrypt($request->password);
-        $register->role = $request->role;
+        $register->role = "2";
         $register->save();
         return redirect()->route('showformLogin')->with(['messages' => 'Đăng Kí Thành Công !']);
     }
